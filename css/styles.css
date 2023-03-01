@@ -9,6 +9,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(102, 136, 136);
   }
   
   header {
@@ -73,10 +74,19 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    background-color: rgb(12, 237, 196);  
+    background-color: rgb(177, 178, 178);  
     
   }
 
+  .Testimonios-card {
+    column-gap: 10rem;
+
+  }
+  
+  .card-body {
+    
+
+  }
   
   footer {
     background-color: gray;
